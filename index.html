@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joias de Glamour</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- header: cabeçalho principal do site -->
+  <header class="topo">
+    <img class="banner" src="logo_joias_do_glamour.png" alt="Banner do catálogo Joias de Glamour">
+    <h1>Joias de Glamour</h1>
+    <p>Escolha uma joia e veja os detalhes do produto.</p>
+    <!-- Substitua a imagem acima pela arte feita no Canva para atender a atividade -->
+  </header>
+
+  <!-- main: conteúdo principal da página -->
+  <main class="container">
+    <!-- section: área de escolha do produto -->
+    <section class="bloco">
+      <h2>Pesquisar joia</h2>
+
+      <label for="produtoInput">Digite o nome da joia:</label>
+      <input type="text" id="produtoInput" placeholder="Ex: rubi">
+
+      <label for="produtoSelect">Ou selecione uma joia:</label>
+      <select id="produtoSelect">
+        <option value="">Escolha uma joia</option>
+        <option value="rubi">Rubi</option>
+        <option value="safira">Safira</option>
+        <option value="esmeralda">Esmeralda</option>
+        <option value="diamante">Diamante</option>
+        <option value="ouro">Ouro</option>
+        <option value="prata">Prata</option>
+        <option value="rose quartzo">Rose Quartzo</option>
+        <option value="jade">Jade</option>
+      </select>
+
+      <div class="botoes">
+        <button type="button" onclick="verProduto()">Ver Produto</button>
+        <button type="button" onclick="limparCampos()">Limpar</button>
+      </div>
+
+      <p id="mensagem"></p>
+    </section>
+
+    <!-- section: área onde os dados do produto são exibidos -->
+    <section class="bloco resultado">
+      <h2>Detalhes da joia</h2>
+      <h3 id="nomeProduto">Nome da joia</h3>
+      <p id="descricaoProduto">Descrição da joia</p>
+      <p id="precoProduto">Preço da joia</p>
+      <img id="imagem" src="logo_joias_do_glamour_redondo.png" alt="Imagem da joia selecionada">
+    </section>
+  </main>
+
+  <!-- footer: rodapé da página -->
+  <footer class="rodape">
+    <p>fale conosco por 31937042683</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

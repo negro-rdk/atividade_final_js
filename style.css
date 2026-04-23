@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #222;
+}
+
+.topo {
+  text-align: center;
+  background-color: #8e44ad;
+  color: white;
+  padding: 20px;
+}
+
+.banner {
+  width: 100%;
+  max-width: 700px;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 15px;
+  border-radius: 8px;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 20px auto;
+}
+
+.bloco {
+  background-color: white;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  margin-top: 10px;
+}
+
+input,
+select,
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+button {
+  border: none;
+  background-color: #8e44ad;
+  color: white;
+}
+
+.botoes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.resultado {
+  text-align: center;
+}
+
+#imagem {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+#mensagem {
+  color: #c0392b;
+  font-weight: bold;
+}
+
+.rodape {
+  text-align: center;
+  background-color: #dddddd;
+  padding: 15px;
+}
